@@ -1,2 +1,16 @@
 /* Some dummy starter css which should get some prefixes
 /  when autoprefixer is run */
+.testing {
+  width: 14.28571%; }
+
+body {
+  background-color: #232830;
+  color: #cfc4c4;
+  display: flex;
+  justify-content: center; }
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%); }
+  to {
+    transform: translateX(100%); } }
